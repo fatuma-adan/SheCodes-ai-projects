@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>AI Jewelry Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Jewelry Generator</h1>
+      </header>
+
+      <main>
+        <div class="form-container">
+          <form id="jewelry-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the event"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Rings,Neclace or Lockets</div>
+        </div>
+        <div class="jewels hidden" id="jewels"></div>
+      </main>
+      <footer>
+        This project is created by
+        <a href="https://github.com/fatuma-adan">Fatuma-Adan❣</a> and is
+        open-sourced on
+        <a href="https://github.com/fatuma-adan/shecodes-ai-project">github</a>
+        and hosted on
+        <a href="https://fatma-ai-project.netlify.app/">netlify</a>
+      </footer>
+    </div>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
