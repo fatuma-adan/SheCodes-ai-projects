@@ -19,7 +19,7 @@ function generateJewels(event) {
 
   let poemElement = document.querySelector("#jewels");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `<div class="generating">⏳ Generating a jewellry about ${instructionsInput.value}</div>`;
+  poemElement.innerHTML = `<div class="generating">⏳ Generating a jewelry about ${instructionsInput.value}</div>`;
 
   axios.get(apiURL).then(displayJewels);
 }
